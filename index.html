@@ -15,9 +15,9 @@
 <body>
     <header id="header">
         <div class="logo">
-            <a href="#" class="logo-text"><i class="code">&lt;</i> ivancho175 <i class="code">&#47;&gt;</i></a>
+            <a href="./index.html" class="logo-text" tabindex="1"><i class="code">&lt;</i> ivancho175 <i class="code">&#47;&gt;</i></a>
         </div>
-        <button id="color-toggle" class="color-toggle">
+        <button id="color-toggle" class="color-toggle" tabindex="2">
             <i class="fas fa-palette"></i>
         </button>
         <nav class="color-nav">
@@ -30,18 +30,18 @@
                 <li class="color-nav__item" id="green" data-color="#1B590D"><span class="green-box"></span>Green</li>
             </ul>
         </nav>
-        <button id="dark-mode-toggle" class="dark-mode-toggle">
+        <button id="dark-mode-toggle" class="dark-mode-toggle" tabindex="3">
             <i class="fas fa-adjust"></i>
         </button>
-        <button class="nav-toggle" aria-label="toggle navigation">
+        <button class="nav-toggle" aria-label="toggle navigation" tabindex="4">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#header" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#header" class="nav__link" tabindex="20">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link" tabindex="21">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link" tabindex="22">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link" tabindex="23">My Work</a></li>
             </ul>
         </nav>
     </header>
@@ -72,7 +72,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
         </div>
-        <a href="#work" class="btn">My Work</a>
+        <a href="#work" class="btn" tabindex="5">My Work</a>
     </section>
 
     <!-- About me -->
@@ -91,32 +91,32 @@
         <h2 class="section__title section__title--work">My work</h2>
         <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
         <div class="portfolio">
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="6">
                 <img src="./img/my-site1.jpg" alt="" class="portfolio__img">
             </a>
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="7">
                 <img src="./img/my-site2.jpg" alt="" class="portfolio__img">
             </a>
 
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="8">
                 <img src="./img/my-site3.jpg" alt="" class="portfolio__img">
             </a> 
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="9">
                 <img src="./img/my-site4.jpg" alt="" class="portfolio__img">
             </a> 
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="10">
                 <img src="./img/my-site5.jpg" alt="" class="portfolio__img">
             </a> 
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="11">
                 <img src="./img/my-site6.jpg" alt="" class="portfolio__img">
             </a> 
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="12">
                 <img src="./img/my-site7.jpg" alt="" class="portfolio__img">
             </a> 
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="13">
                 <img src="./img/my-site8.jpg" alt="" class="portfolio__img">
             </a> 
-            <a href="#" class="portfolio__item">
+            <a href="#" class="portfolio__item" tabindex="14">
                 <img src="./img/my-site9.jpg" alt="" class="portfolio__img">
             </a>
         </div>
@@ -124,19 +124,19 @@
 
     <!-- footer -->
     <footer class="footer">
-        <a href="mailto:ivancho175@hotmail.com" class="footer__link">ivancho175@hotmail.com</a>
+        <a href="mailto:ivancho175@hotmail.com" class="footer__link" tabindex="15">ivancho175@hotmail.com</a>
         <ul class="social-list">
             <li class="social-list__item">
-                <a href="https://github.com/Ivancho175" class="social-list__link" target="-blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://github.com/Ivancho175" class="social-list__link" target="-blank" tabindex="16"><i class="fab fa-github"></i> GitHub</a>
             </li>
             <li class="social-list__item">
-                <a href="https://twitter.com/ivancho175" class="social-list__link" target="-blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://twitter.com/ivancho175" class="social-list__link" target="-blank" tabindex="17"><i class="fab fa-twitter"></i> Twitter</a>
             </li>
             <li class="social-list__item">
-                <a href="https://www.linkedin.com/in/ivan-velez-520a33137/" class="social-list__link" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.linkedin.com/in/ivan-velez-520a33137/" class="social-list__link" target="_blank" tabindex="18"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </li>
             <li class="social-list__item">
-                <a href="https://codepen.io/ivancho175/" class="social-list__link" target="_blank"><i class="fab fa-codepen"></i> CodePen</a>
+                <a href="https://codepen.io/ivancho175/" class="social-list__link" target="_blank" tabindex="19"><i class="fab fa-codepen"></i> CodePen</a>
             </li>
         </ul>
     </footer>

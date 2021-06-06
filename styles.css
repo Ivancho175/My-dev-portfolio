@@ -65,7 +65,7 @@
 
 .color-toggle,
 .dark-mode-toggle {
-    position: absolute;
+    position: fixed;
     right: 6em;
     color: var(--clr-accent);
     border: 2px solid currentColor;
@@ -78,7 +78,7 @@
 
 .color-toggle {
     right: 11em;
-    z-index: 1000;
+    z-index: 100;
 }
 
 @media (min-width: 800px) {
@@ -220,7 +220,7 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 100;
+    z-index: 99;
 
     transform: translateX(100%);
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1)
