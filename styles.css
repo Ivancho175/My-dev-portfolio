@@ -21,7 +21,9 @@
     --clr-light: #EAEAEA;
     --clr-dark: #1E1E1E;
     --clr-accent: /*#103C43#600A0A#512882*/#B5A820/*#924116#1B590D*/;
-    --clr-accent-light: #015A68;
+
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -30,6 +32,28 @@
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+.darkmode {
+    --clr-light: #EAEAEA;
+    --clr-dark: #1E1E1E;
+    --clr-accent: /*#103C43#600A0A#512882*/#B5A820/*#924116#1B590D*/;
+
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+}
+
+.dark-mode-toggle {
+    position: relative;
+    z-index: 90;
+    margin: 0 5em 0 auto;
+    color: var(--clr-accent);
+    border: 2px solid currentColor;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
 }
 
 @media (min-width: 800px) {
@@ -46,8 +70,8 @@ html {
 }
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--background);
+    color: var(--foreground);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -66,7 +90,7 @@ body {
 }
 
 .logo .code {
-    color: var(--clr-light);
+    color: var(--background);
     transition: color 0.3s ease-in-out;
 }
 
@@ -157,6 +181,7 @@ h3 {font-size: var(--fs-h3)}
 }
 
 header {
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding: 1em;
