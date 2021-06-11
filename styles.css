@@ -20,7 +20,7 @@
 
     --clr-light: #EAEAEA;
     --clr-dark: #1E1E1E;
-    --clr-accent: /**/#B5A820/**/;
+    --clr-accent: #B5A820;
 
     --foreground: var(--clr-dark);
     --background: var(--clr-light);
@@ -44,15 +44,15 @@
 }
 
 .red {
-    --clr-accent: #600A0A;
+    --clr-accent: #971010;
 }
 
 .oil-blue {
-    --clr-accent: #103C43;
+    --clr-accent: #3F7D87;
 }
 
 .purple {
-    --clr-accent: #512882;
+    --clr-accent: #7C5DB2;
 }
 
 .orange {
@@ -60,7 +60,7 @@
 }
 
 .green {
-    --clr-accent: #1B590D;
+    --clr-accent: #66A36B;
 }
 
 .color-toggle,
@@ -262,7 +262,7 @@ header {
 
 .red-box::before {
     content: '';
-    background: #600A0A;
+    background: #971010;
     margin: 0 .5em 0 1em;
     padding: 0 .6em;
     border-radius: .2em;
@@ -270,7 +270,7 @@ header {
 
 .blue-box::before {
     content: '';
-    background: #103C43;
+    background: #3F7D87;
     margin: 0 .5em 0 1em;
     padding: 0 .6em;
     border-radius: .2em;
@@ -278,7 +278,7 @@ header {
 
 .purple-box::before {
     content: '';
-    background: #512882;
+    background: #7C5DB2;
     margin: 0 .5em 0 1em;
     padding: 0 .6em;
     border-radius: .2em;
@@ -294,7 +294,7 @@ header {
 
 .green-box::before {
     content: '';
-    background: #1B590D;
+    background: #66A36B;
     margin: 0 .5em 0 1em;
     padding: 0 .6em;
     border-radius: .2em;
