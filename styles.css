@@ -95,6 +95,7 @@ html {
 }
 
 body {
+    width: 100%;
     background: var(--background);
     color: var(--foreground);
     margin: 0;
@@ -460,6 +461,10 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+}
+
+.service p {
+    margin: 15px 0;
 }
 
 @media (min-width: 800px) {
